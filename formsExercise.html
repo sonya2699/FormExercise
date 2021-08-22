@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Forms">
+    <title>Customer Experience Survey</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Customer Experience Survey</legend>
+
+        <form>
+            <div>
+
+                <label for="Store Number">Store Number</label>
+                <select name="Store Number" id="Store Number">
+                    <option hidden>Select A Store</option>
+                    <option value="3109">3109</option>
+                    <option value="2421">2421</option>
+                    <option value="5357">5357</option>
+                </select>
+
+                <br>
+                <fieldset>
+                    <legend>When you visit</legend>
+                    <label for="DateVisited">DateVisited</label>
+                    <input type="This Year" id="this year" value="2021/--/--">
+                    <div>
+                        <label for="Time">Time</label>
+                        <input type="Time">
+                    </div>
+                </fieldset>
+                <div>
+
+                    <label for="fullName">Full Name<label>
+                            <input type="text" id="fullName" placeholder="Name" name="fullName" required>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Email">
+                            </div>
+
+                            <fieldset>
+                                <legend>Gender</legend>
+                                <div>
+
+                                    <input type="radio">
+                                    <label for="Gender">Male</label>
+                                    <div>
+                                        <selected>
+
+                                            <input type="radio" checked="checked" name="imgsel">
+                                            <label for="Gender">female </label>
+
+                                        </selected>
+
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div>Tell us about your experience:</div>
+                            <textarea name="" id="" cols="20" rows="2"></textarea>
+                            <div>Times visited in the last month:</div>
+                            <textarea name="" id="" cols="10" rows="1"></textarea>
+                            <div>
+
+
+                                <label>Please Check the box is you would be willing to be contacted about your
+                                    experience</label>
+                                <select name="please Check" id="pleaseCheck">
+                                    <option hidden>pleaseCheck</option>
+                                    <option value="yes">yes</option>
+                                    <option value="No">no</option>
+                                </select>
+                                <div>
+
+                                    <label for="pw">Password</label>
+                                    <input type="Password" id="pass" name="password" minlength="5" maxlength="10"
+                                        title="please enter a password that is 5-10 characters in length" required>
+
+                                </div>
+
+
+
+                                <div>
+
+                                </div>
+                                <button>Reset</button>
+                                <button>Submit</button>
+                            </div>
+
+                </div>
+
+
+
+            </div>
+            </div>
+
+            <div>
+            </div>
+        </form>
+
+</body>
+</fieldset>
+
+</html>
